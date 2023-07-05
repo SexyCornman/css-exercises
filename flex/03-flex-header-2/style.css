@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 8px;
+  display: flex;
+  
 }
 
 .profile-image {
@@ -45,4 +48,24 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  padding: 0px;
 }
+
+.leftlink {
+  display: flex; 
+  justify-content: flex-start;
+  gap: 16px;
+  align-items: center;
+  margin-right: auto;
+
+}
+
+.rightlink {
+  display: flex;
+  gap: 16px;  
+  align-items: center;
+}
+
+/* You could make the code cleaner by grouping the selector */
